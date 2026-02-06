@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "date_calibrated": "2026-02-02T19:34:24.170931",
+    "calibration_method": "Bragg spot detection with Si-Au reference",
+    "reference_material": "Si-Au thin film heterostructure",
+    "zone_axis": "[110]",
+    "microscopist": "Student Name",
+    "microscope": "FEI TitanX 200kV",
+    "camera": "Gatan K2 IS"
+  },
+  "experimental_conditions": {
+    "accelerating_voltage": 200,
+    "magnification": 1500000,
+    "camera_length": 165,
+    "beam_current": 0.5,
+    "dwell_time": 0.1
+  },
+  "calibration_parameters": {
+    "origin_x": 235.5,
+    "origin_y": 235.5,
+    "reciprocal_pixelsize": 0.0201,
+    "real_pixelsize": 0.1,
+    "rotation_angle": 0.0,
+    "ellipticity": 1.0
+  },
+  "quality_assessment": {
+    "n_peaks_detected": 28,
+    "n_peaks_used": 12,
+    "pixelsize_error": 0.5,
+    "origin_error": 0.2,
+    "quality_rating": "EXCELLENT"
+  },
+  "uncertainties": {
+    "pixelsize_uncertainty": 0.0001,
+    "origin_x_uncertainty": 0.3,
+    "origin_y_uncertainty": 0.3
+  },
+  "notes": [
+    "Calibrated using 220 Si Bragg reflection",
+    "Validated with 440 and 200 reflections",
+    "Stable throughout entire data collection",
+    "Suitable for strain mapping applications"
+  ]
+}
